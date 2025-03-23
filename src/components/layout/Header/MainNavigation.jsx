@@ -58,9 +58,12 @@ const MainNavigation = () => {
         color="inherit"
         enableColorOnDark
         elevation={0}
-        sx={{ bgcolor: 'rgba(255,255,255,0.72)', backdropFilter: 'blur(20px)' }}
+        sx={{ bgcolor: 'rgba(64, 63, 63, 0.72)', backdropFilter: 'blur(20px)' }}
       >
-        <Toolbar sx={{ borderBottom: 1, borderColor: 'grey.100' }}>
+        <Toolbar sx={{ 
+          //borderBottom: 1, 
+          // borderColor: 'grey.100' 
+          }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
